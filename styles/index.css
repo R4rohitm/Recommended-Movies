@@ -1,0 +1,76 @@
+#navbar {
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: right;
+  gap: 25px;
+  border: 1px solid black;
+}
+
+#navbar > div {
+  height: 90%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar > div > a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#slideshow {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slideshow > img {
+  height: 350px;
+  width: 800px;
+  object-fit: contain;
+}
+
+#movies {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#movies > div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+
+#movies > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#movies > div > div > h2 {
+  margin-right: 10px;
+}
+
+#movies > div > div > p {
+  color: red;
+}
+
+#movies > div > img {
+  height: 250px;
+  width: 90%;
+  object-fit: contain;
+}
+
+#sort-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 1000px;
+}
+#sort-buttons > select {
+  border: 2px solid red;
+}
